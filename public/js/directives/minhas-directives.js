@@ -1,13 +1,14 @@
-angular.module('minhasDirectives', []).directive('meuPainel', function() {
+angular.module('minhasDirectives', [])
+  .directive('meuPainel', function() {
 
-  var ddo = {};
+    var ddo = {};
 
-  ddo.restric = "AE";
-  ddo.scope = {
-    titulo: '@'
-  };
-  ddo.transclude = true;
-  ddo.templateUrl = 'js/directives/meu-painel.html';
+    ddo.restric = "AE";
+    ddo.scope = {
+      titulo: '@'
+    };
+    ddo.transclude = true;
+    ddo.templateUrl = 'js/directives/meu-painel.html';
 
-  return ddo;
-});
+    return ddo;
+  });
