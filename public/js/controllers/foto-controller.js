@@ -37,6 +37,7 @@ angular.module('alurapic')
               $scope.mensagem = 'Não foi possível cadastrar a foto!';
             });
         }
+        $scope.formulario.$setPristine();
       }
     };
 
